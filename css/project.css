@@ -1,0 +1,1615 @@
+*{
+	 padding:0;
+	 border:0;
+ }
+
+body, html{
+
+	 font-family:'Source Code Pro';
+	 background:  rgba(0, 0, 0, 1.0);
+	 color: rgba(0, 0, 0, 1.0);
+	 margin: 0;
+	 padding: 0;
+
+ }
+
+h1,h2,h3,h4,h5,h6{
+
+	 padding: 0;
+	 margin: 0;
+}
+
+p{
+	 margin: 0;
+	 padding: 0;
+
+ }
+
+*{
+	box-sizing: border-box;
+
+ }
+
+
+.menubackground{
+
+     background: url(../img/IMG_2040-2razm.jpg);
+     position: relative;
+     background-size: cover;
+	 background-position: center;
+	 width: 100%;
+	 height: 100vh;
+	 min-height: 750px;
+		
+	/*animation: bg-сhange 20s linear reverse infinite;*/
+	
+		
+ }
+
+
+/*@keyframes bg-сhange {
+    from {
+    	background-image: url(../img/backgroundraz.jpg);
+    }
+
+
+    
+    to {
+      background-image: url('../img/IMG_2040-2razm.jpg');
+    }
+    
+  }
+  */
+  
+
+.beforefirst{
+
+	 display: none;
+
+}
+
+.firstlane{
+
+	 background: rgba(0, 0, 0, 0.3);
+}
+
+.logo{
+	
+     height: 70px;
+	 margin-left: 40px;
+	 background: rgba(255, 255, 255, 1.0);
+	 padding: 5px;
+
+ }
+
+.onediv{
+
+	 display: flex;
+	 align-items: center;
+
+ }
+
+.sociallogo{
+	
+	 margin-right: 50px;
+
+ }
+
+.infactw{
+
+	 height: 40px;
+	 width: 40px;
+	 margin-left: 20px;
+	
+ }
+.infactw:hover{
+
+	 cursor: pointer;
+
+ }
+
+
+li{
+	 list-style: none;
+	 text-decoration: underline;
+	 display: inline-flex;
+	 margin-left: 20px;
+     justify-content: center;
+	 font-size: 21px;
+	 font-weight: 500;
+	 align-items: center;
+
+ }
+
+
+#about:hover{
+
+	 cursor: pointer;
+	 font-weight: 800;
+
+ }
+
+
+li:hover{
+
+	 cursor: pointer;
+	 font-weight: 800;
+
+ }
+
+header{
+
+	 width: 100%;
+ }
+
+
+.bar{
+
+	 display: none;
+	 text-align: center;
+ }
+
+.barlogo{
+
+     height: 30px;
+	 text-align: center;
+ }
+
+
+.barlogo:hover{
+
+	 cursor: pointer;
+
+ }
+
+.closebutton{
+
+	 height: 30px;
+	 display: none;
+
+ }
+
+ .closebutton:hover{
+
+	 cursor: pointer;
+	
+ }
+
+ #about{
+
+	 color: rgba(255, 255, 255, 1.0);
+	 font-size: 21px;
+	 font-weight: 500;
+
+	 }
+
+#about a{
+
+	 color: rgba(255, 255, 255, 1.0);
+	 font-size: 21px;
+	 font-weight: 500;
+
+ }   
+
+#contact_a{
+
+	 color: rgba(0, 0, 0, 1.0);
+	 font-size: 21px;
+	 font-weight: 500;
+
+ }
+#projects a{
+
+	 color: rgba(0, 0, 0, 1.0);
+	 font-size: 21px;
+	 font-weight: 500;
+ }
+
+#skills a{
+
+	 color: rgba(0, 0, 0, 1.0);
+	 font-size: 21px;
+	 font-weight: 500;
+ }
+
+#projects:hover{
+
+     cursor: pointer;
+	 font-weight: 800;
+ }
+
+
+#skills:hover{
+
+     cursor: pointer;
+	 font-weight: 800;
+ }
+
+
+#contact_a:hover{
+
+     cursor: pointer;
+	 font-weight: 800;
+ }
+
+#dot{
+
+	 color: white;
+	 width: 30px;
+	 height: 10px;
+	 background: white;
+	 font-size: 10px;
+
+ }
+
+.nav{
+
+	 margin-right: 40px;
+	 align-items: center;
+
+ }
+
+.betweenimage{
+
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 margin-top: 117px;
+	
+ }
+
+
+.coder{
+
+	 color: rgba(255, 255, 255, 1.0);
+	 font-size: 70px;
+	 letter-spacing: 0.2em;
+	 text-decoration: none;
+
+ }
+
+
+.coder_background{
+
+	 background:  rgb(0, 0, 0, 0.25);
+     padding: 140px 0px 140px 10px;
+	 margin-top: -90px;
+
+ }
+
+
+.personalport_div{
+
+	 margin-top: -70px;
+	 overflow: hidden;
+	 height: auto;
+	 width: auto;
+	
+ }
+
+
+ .coder{
+
+     -webkit-animation: coder 4s linear infinite;
+     animation: coder 4s linear infinite;
+
+ }
+
+@-webkit-keyframes coder {
+
+     0% { color: rgba(255, 255, 255, 1); }
+     25%{ color: rgba(255, 255, 255, 0.7); }
+     50% { color: rgba(255, 255, 255, 0s); }
+     75%{ color: rgba(255, 255, 255, 0.7); }
+     100% { color: rgba(255, 255, 255, 1); }
+
+ }
+
+
+@keyframes coder{
+
+     0% { color: rgba(255, 255, 255, 1); }
+     25%{ color: rgba(255, 255, 255, 0.7); }
+     50% { color: rgba(255, 255, 255, 0); }
+     75%{ color: rgba(255, 255, 255, 0.7); }
+     100% { color: rgba(255, 255, 255, 1); }
+
+ }
+
+
+.personalportfolio{
+
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-size: 54px;
+	 line-height: 1.5em;
+	 color: rgba(0, 0, 0, 1.0);
+	 text-decoration: underline;
+	 margin-top: 0px;
+	 overflow: hidden;
+
+ }
+
+
+.personalportfolio:hover{
+
+	 cursor: pointer;
+	 font-weight: 800;
+
+ }
+
+
+.port{
+
+     color: rgba(0, 0, 0, 1.0);
+     font-size: 54px;
+
+ }
+
+
+.coder:hover{
+
+	 cursor: pointer;
+	 font-weight: 500;
+
+ }
+
+
+.frame{
+
+     border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+
+ }
+
+
+.code{
+
+	 height: 300px;
+     background: rgba(0, 0, 0, 0.3);
+     padding-top: 30px;
+	
+ }
+
+
+.try{
+
+	 border-right: 3px solid rgba(0, 0, 0, 0.4);
+	 width: 350px;
+	 height: 220px;
+	 margin-top: -200px;
+	 margin-left: -20px;
+	
+ }
+
+
+.firstlane{
+
+     display: flex;
+	 justify-content: space-between;
+     padding: 20px;
+     align-items: center;
+    
+ }
+
+
+#iam{
+	
+	 text-align: right;
+	 font-size: 50px;
+	 color: rgba(255, 255, 255, 1.0);
+	
+ }
+
+#webdev{
+
+ font-size: 90px;
+ text-align: right;
+ color: rgb(82, 75, 111);
+
+ }
+
+
+#developer{
+
+	 font-size: 90px;
+	 text-align: right;
+	 line-height: 1.2em;
+	 margin-right: 5px;
+
+ }
+
+
+.mediaiamweb{
+
+	 display: none;
+
+ }
+
+
+/* PART ABOUTME
+
+   !!!!  --------------------------------------
+   --------------------------------------------
+   --------------------------------------------
+
+ */
+
+.aboutcection{
+
+	 width: 100%;
+
+ }
+
+.arrow{
+
+	 height: 40px;
+	 display: block;
+	 margin: 0 auto;
+	 margin: 40px auto 50px auto;
+	 opacity: 0.9;
+
+ }
+
+
+.portfolioimgdiv{
+
+	 border: 5px solid rgb(82, 75, 111);
+
+ }
+
+.foto{
+
+	 height: 350px;
+	 display: block;
+	 position: relative;
+	 top: -10px;
+	 left: -10px;
+	
+ }
+
+
+.aboutmepictureandtext{
+
+	 display: flex;
+	 display: wrap;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+	
+ }
+
+	
+.text{
+
+	 color: rgba(255, 255, 255, 1.0);
+     font-weight: 400;
+	 line-height: 1.2em;
+	 margin: 0px;
+	 padding: 0px;
+	 text-align: center;
+	 margin-left: 30px;
+	 width: 400px;
+	 size: 20px;
+
+ }
+
+
+.myname{
+
+	 color: rgba(255, 255, 255, 1.0);
+     display: block;
+	 text-align: center;
+     background:rgba(82, 75, 111,1.0);
+     padding: 0px 0px 0px 0px;
+     width: 220px;
+      margin: 0 auto;
+
+ }
+
+
+.abouttitle {
+
+	 color: rgba(255, 255, 255, 1.0);
+	 font-size: 30px;
+	 font-weight: 500;
+	 margin-top: 0px;
+	 text-align: center;
+	 position: relative;
+	 margin-left: 200px;
+	 margin-right: 200px;
+
+	
+ }
+
+
+.abouttitlep{
+
+	 font-size: 40px;
+	 letter-spacing: 0.1em;
+
+ }
+
+
+.abouttitle .abouttitlep{
+
+	 background:rgba(0, 0, 0, 1.0);
+	 display: inline-block;
+	 padding: 0 30px;
+	 position: relative;
+	 color: rgba(255, 255, 255, 1.0);
+
+ }
+
+
+.abouttitle:before{
+
+	 content: '';
+	 position: absolute;
+	 top: 50%;
+	 left: 0;        
+	 width: 100%;
+	 height: 5px; /* ширина линии */
+	 background:rgba(82, 75, 111,1.0); /* цвет линии */
+
+ }
+
+
+.aboutmehealine{
+
+	 margin-top: 50px;
+	 margin-bottom: 0px;
+	
+	 }
+
+.aboutheadmobdiv{
+
+	 display: none;
+
+ }
+
+
+.clickdiv{
+	
+	 width: 80px;
+	 text-align: center;
+	 margin: 0 auto;
+
+ }
+
+
+.click{
+
+	 color: rgba(0, 0, 0, 1.0);
+	 text-decoration: none;
+	 padding: 5px 20px 5px 20px;
+	 border: 1px solid white;
+	 border-radius: 3px;
+	 background:rgba(255, 255, 255, 1.0);
+	 font-size: 20px;
+
+ }
+
+
+.click{
+
+     -webkit-animation: click 0.7s linear infinite;
+     animation: click 0.7s linear infinite;
+
+ }
+
+@-webkit-keyframes click{
+
+     0% { color: rgba(0, 0, 0, 1); }
+  
+     50% { color: rgba(0, 0, 0, 0); }
+ 
+     100% { color: rgba(0, 0, 0, 1); }
+
+ }
+
+
+@keyframes click{
+
+     0%{ color: rgba(0, 0, 0, 1); }
+ 
+     50% { color: rgba(0, 0, 0, 0); }
+ 
+     100%{ color: rgba(0, 0, 0, 1); }
+
+ }
+
+
+.clicknext{
+
+	 text-decoration: none;
+	 padding: 5px 20px 5px 20px;
+	 border: 1px solid rgba(255, 255, 255, 1.0);
+	 border-radius: 3px;
+	 background:rgba(255, 255, 255, 1.0);
+	 font-size: 20px;
+
+ }
+
+
+.clickback{
+
+	 text-decoration: none;
+	 padding: 5px 20px 5px 20px;
+	 border: 1px solid rgba(255, 255, 255, 1.0);
+	 border-radius: 3px;
+	 background:rgba(255, 255, 255, 1.0);
+	 font-size: 20px;
+
+ }
+
+
+.clickdivnext{
+
+	 display: none;
+	 width: 80px;
+	 text-align: center;
+	 margin: 20px auto 20px auto;
+	 color: rgba(82, 75, 111, 1);
+
+ }
+
+
+.clickdivback{
+
+	 display: none;
+	 width: 80px;
+	 text-align: center;
+	 margin: 0 auto;
+	 color: rgba(82, 75, 111, 1);
+
+ }  
+
+
+
+
+/*   _________________________SKILL SECTION________________________
+-----
+-------------
+--------------------SKILL------------
+----------                 -----------
+*/
+
+
+
+
+.skillsection{
+
+	 background:  rgba(0, 0, 0, 1.0);
+	
+ }
+
+
+.skilltitle{
+
+	 color:rgba(82, 75, 111,1.0);
+	 font-size: 40px;
+	 text-align: center;
+	 margin: 50px 0px 20px 0px;
+
+ }
+
+
+.skillpicturesfull{
+
+	 margin: 0 auto;
+	 text-align: center;
+
+ } 
+
+
+.skilllogo{
+
+	 height: 60px;
+
+ }
+
+
+.skillpictures{
+
+     display: flex;
+     display: wrap;
+     margin: 0 auto;
+     align-items: center;
+
+ }
+
+
+.col{
+
+	 display: inline-flex;
+
+ }
+
+
+.skilllogodiv{
+
+	 display: none;
+	
+ }
+
+
+.aprj_contactme{
+
+	 color: rgba(255, 255, 255, 1.0);
+	 text-decoration: none;
+	 background:rgba(82, 75, 111,1.0);
+
+ }
+
+
+.projects{
+
+	 color:rgba(82, 75, 111,1.0);
+	 text-align: center;
+	 margin-top: 10px;
+
+ }
+
+
+
+/*______________________________________
+---------
+-----------FOOTER-----------
+---_____________________________________________________________
+------------
+
+*/
+
+
+
+.border{
+	
+	 border: 3px solid rgba(255, 255, 255, 1.0);
+	 width: 300px;
+     margin: 16px auto 20px auto;
+
+ }
+
+
+.contactdiv{
+
+	 background:rgba(82, 75, 111,1.0);
+	 padding: 20px;
+	 text-align: center;
+	 padding: 90px 10px 90px 10px;
+	 position: relative;
+	 top: -10px;
+	 left: -10px;
+	
+ }
+
+
+.phonemail{
+
+	 line-height: 1.7em;
+
+ }
+
+
+
+.logocontact{
+
+	 height: 30px;
+
+ }
+
+
+
+.logocontact:hover{
+
+	 cursor: pointer;
+	
+ }
+
+
+.logocontactp{
+
+	 text-align: center;
+
+ }
+
+
+
+______________________contactPAGE-------------------------
+
+
+
+
+.body{
+
+	 background: rgba(82, 75, 111,1.0);
+
+ }
+
+
+.contactpagediv{
+
+	 background: rgba(0, 0, 0, 1.0);
+	 color: rgba(255, 255, 255, 1.0);
+	 text-align: center;
+	 font-size: 20px;
+
+ }
+
+
+
+.logocontactpage{
+
+	 display: flex;
+	 background: rgba(82, 75, 111,1.0);
+	 width: 130px;
+	 margin: 0 auto;
+	 padding: 10px 10px 10px 10px;
+
+ }
+
+
+
+
+
+/*_________________________________________________________________
+               ______--------_______------_____
+                      ------
+                            ----------
+                            MOBILE
+                            ________
+                            ________
+   _____________________________________________________________*/
+
+
+
+
+
+
+@media only screen and (min-height: 800px){
+
+ .personalport_div{
+
+	 margin-top: 0px;
+
+ }
+ .coder_persportfolio{
+	 margin-top: 100px;}
+
+ }
+
+
+
+
+@media only screen and (max-width: 1160px){
+
+ .coder{
+     display: none;
+
+ }
+ .coder_background{
+     display: none;
+ } 
+ .frame{
+ 	opacity: 0.7;
+ }
+ .menubackground{
+	 max-width: 1160px;
+	 background-size: cover;
+	 background-position: center;
+	 position: relative;
+ }
+
+ }
+
+
+
+
+@media only screen and (max-width: 1000px){
+
+ .coder_persportfolio{
+	 display: none;
+ }
+
+ .sociallogo{
+     display: none;
+ }
+
+
+ .menubackground{
+	 background-size: cover;
+	 background-position: center;
+	 position: relative;
+ }
+ .betweenimage{
+ 	 display: none
+ }
+ .frame{
+	 display:  none;
+ }
+ .iamweb{
+	 display: none;
+ }
+
+ .firstlane{
+     display: flex;
+	 background: rgba(0, 0, 0, 0.1);
+ }
+
+ .mediaiamweb{
+	 display: block;
+	 background:rgba(0, 0, 0, 0.15);
+ }
+ .menubackground .mediaiamweb{
+     position: absolute;
+	 bottom: 8%;
+     left: 50%;
+     transform: translate(-50%,-0%);
+ }
+
+ .mediaiamweb:hover{
+	 cursor: pointer;
+ }
+
+ .iamwebtext{
+	 text-align: center;
+     font-size: 90px;
+	 color: rgba(0, 0, 0, 1.0);
+ }
+
+ .developermobile{
+     font-size: 90px;
+	 letter-spacing: 0.3em;
+	 text-align: center;
+	 line-height: 1.3em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #iamwebdev{
+     color: rgba(0, 0, 0, 1.0);
+	 letter-spacing: 0.3em;
+ }
+
+ .webmob{
+	 color: rgba(255, 255, 255, 1.0);
+     letter-spacing: 0.3em;
+     font-size: 50px;
+ }
+
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 10px;
+     background: rgba(255, 255, 255, 1.0);
+	 width: 5px;
+	 height: 5px;
+	 }
+
+ .coder_background{
+
+     display: none;
+ }
+
+ }
+
+
+
+
+
+@media only screen and (max-width: 820px){
+
+ .aboutmepictureandtext{
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+ }
+
+ }
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+ .aboutmepictureandtext{
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+ }
+ *{
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
+ }
+
+ .menubackground{
+     background: url(../img/IMG_2040-2razm.jpg);
+     background-size: cover;
+	 background-position: center;
+	 max-width: 100%;
+ }
+
+ .firstlane{
+     display: flex;
+ }
+
+ .logo{
+	 background: rgba(255, 255, 255, 0.5);
+ }
+
+ .frame{
+	 display:  none;
+ }
+
+ .iamweb{
+	 display: none;
+ }
+
+ .mediaiamweb{
+	 display: block;
+	 padding: 60px 0px 50px 0px;
+ }
+
+ .iamwebtext{
+	 text-align: center;
+     font-size: 55px;
+	 color: rgba(0, 0, 0, 1.0);
+ }
+
+ #iamwebdev{
+     color: rgba(0, 0, 0, 1.0);
+	 letter-spacing: 0.3em;
+ }
+
+ .webmob{
+	 letter-spacing: 0.3em;
+ }
+
+ .developermobile{
+	 font-size: 80px;
+	 text-align: center;
+	 line-height: 1.3em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 10px;
+     background: rgba(255, 255, 255, 1.0);
+	 width: 5px;
+	 height: 5px;
+ }
+
+ .aboutmepictureandtext{
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+	 }
+ }
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+ *{
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
+ } 
+
+ .menubackground{
+     background: url(../img/IMG_2040-2razm.jpg);
+     background-size: cover;
+	 background-position: center;
+	 max-width: 100%;
+ }
+
+ .firstlane{
+     display: flex;
+ }
+
+ .frame{
+	 display:  none;
+ }
+
+ .iamweb{
+	 display: none;
+ }
+
+ .mediaiamweb{
+	display: block;
+ }
+
+ .iamwebtext{
+	 text-align: center;
+     font-size: 55px;
+	 color: rgba(0, 0, 0, 1.0);
+ }
+
+ .developermobile{
+	 font-size: 80px;
+	 text-align: center;
+	 line-height: 1.3em;
+     color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 10px;
+     background: rgba(255, 255, 255, 1.0);
+	 width: 5px;
+	 height: 5px;
+	 }
+
+ .aboutmepictureandtext{
+     display: flex;
+	 flex-direction: column;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+ }
+
+ }
+
+
+
+
+
+@media only screen and (max-width: 758px){
+
+ #projects{
+	 display: none;
+ }
+ }
+
+
+
+
+
+@media only screen and (max-width: 740px){
+	 #projects{
+		 display: none;
+ }
+
+ .iamwebtext{
+	 text-align: center;
+     font-size: 45px;
+	 color: rgba(0, 0, 0, 1.0);
+ }
+
+ .developermobile{
+	 font-size: 65px;
+	 text-align: center;
+	 line-height: 1.3em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+ }
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+ .aboutmehealine{
+	 display: none;
+ }
+
+ .aboutheadmobdiv{
+	 display: block;
+ }
+
+ .aboutmemob{
+	 font-size: 28px;
+	 color: rgba(255, 255, 255, 1.0);
+	 text-align: center;
+	 margin-top: 50px;
+ }
+ }
+
+
+
+
+
+@media only screen and (max-width: 627px){
+
+ #skills{
+	 display: none;
+ }
+ }
+
+
+
+
+@media only screen and (max-width: 560px){
+
+ *{
+ box-sizing: border-box;
+ }
+
+ .header{
+ }
+
+ .menubackground{
+		 height: 100vh;
+ }
+
+ .beforefirst{
+		 display: block;
+         color: rgba(0, 0, 0, 0);
+		 font-size: 25px;
+		 text-align: center;
+ }
+	
+ .logo{
+     height: 80px;
+     margin: 115px 0px 30px 0px;
+	 background: rgba(255, 255, 255, 1);
+ }
+
+ .firstlane{
+	 display: flex;
+	 flex-direction: column;
+	 background: rgba(0, 0, 0, 0.5);
+	 height: 74px;
+ }
+
+ .bar{
+ 	 display: flex;
+ }
+ 
+ 
+ .barlogo{
+     height: 40px;
+ }
+
+ .barlogo:hover{
+ 	 opacity: 0.5;
+ }
+
+ .verticalmenu{
+     display: none;
+	 text-align: center;
+	 flex-direction: column;
+ }
+
+ .menu_a{
+	 color: rgba(0, 0, 0, 1.0);
+	 text-decoration:none;
+	 font-size: 30px;
+	 font-weight: 600;
+	 line-height: 2.8em;
+ }
+ 
+ .menu_a:hover{
+     cursor: pointer;
+	 width: 100vh;
+	 background: rgba(0, 0, 0, 0.3);
+ }
+
+ .mediaiamweb{
+	 display: block;
+	 background:rgba(0, 0, 0, 0.3);
+ }
+ .iamwebtext{
+	 text-align: center;
+     color: black;
+ }
+
+ .webmob{
+	 font-size: 55px;
+ }
+
+ .developermobile{
+	 font-size: 60px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+
+	 color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+	 background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+
+ .betweenimage{
+ 	 display: none;
+ }
+ .aboutmepictureandtext{
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 0px;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 50px;
+ }
+
+ .aboutmehealine{
+	 display: none;
+ }
+
+ .aboutheadmobdiv{
+	 display: block;
+ }
+
+ .aboutmemob{
+	 font-size: 28px;
+	 color: rgba(255, 255, 255, 1.0);
+	 text-align: center;
+	 margin-top: 50px;
+ }
+
+ .foto{
+	 width: 280px;
+	 height: 280px;
+	 display: block;
+	 position: relative;
+	 top: -10px;
+	 left: -10px;
+ }
+
+ .text{
+	 color:rgba(255, 255, 255, 1.0);
+	 font-weight: 400;
+	 line-height: 1.2em;
+	 margin: 0px;
+	 padding: 0px;
+	 text-align: center;
+	 width: 290px;
+     font-size: 18px;
+ }
+
+ .helloword{
+	 text-align: center;
+	 color: rgba(255, 255, 255, 1.0);
+	 font-weight: 400;
+	 line-height: 1.2em;
+ }
+
+ .myname{
+	 text-align: center;
+ }
+
+ .skilllogodiv{
+     display: flex;
+	 flex-wrap: wrap;
+ }
+ .skillpicturesfull{
+ 	display: none;
+ }
+
+ .skillpictures{
+	 display: flex;
+	 flex-direction: column;
+ }
+
+ .skilltitle{
+	 font-size: 24px;
+ }
+
+ .projects{
+	 font-size: 24px;
+ }
+
+ .onediv{
+	 display: none;
+ }
+
+ .border{
+	 margin-top: 60px;
+ }
+ }
+
+
+
+
+@media only screen and (max-width: 520px){
+
+ .webmob{
+	 font-size: 50px;
+ }
+
+ .developermobile{
+	 font-size: 55px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color:rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+@media only screen and (max-width: 485px){
+
+ .webmob{
+	 font-size: 45px;
+ }
+
+ .developermobile{
+	 font-size: 50px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+
+@media only screen and (max-width: 442px){
+
+ .webmob{
+	 font-size: 42px;
+ }
+
+ .developermobile{
+	 font-size: 47px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+
+
+@media only screen and (max-width: 400px){
+
+ .webmob{
+	 font-size: 37px;
+ }
+
+ .developermobile{
+	 font-size: 42px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+
+@media only screen and (max-width: 360px){
+
+ .webmob{
+	 font-size: 30px;
+ }
+
+ .developermobile{
+	 font-size: 35px;
+	 text-align: center;
+	 line-height: 1.8em;
+     color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+
+
+@media only screen and (max-width: 308px){
+
+ .webmob{
+	 font-size: 26px;
+ }
+
+ .developermobile{
+	 font-size: 31px;
+	 text-align: center;
+	 line-height: 1.8em;
+	 color: rgba(255, 255, 255, 1.0);
+ }
+
+ #dotmedia{
+     color: rgba(255, 255, 255, 1.0);
+	 font-size: 5px;
+     background:rgba(255, 255, 255, 1.0);
+	 width: 7px;
+	 height: 7px;
+ }
+ }
+
+
+
+
+@media only screen and (max-width: 280px){
+
+	 *{
+     box-sizing: border-box;
+	 }
+
+ .foto{
+	 width: 260px;
+	 height: 260px;
+	 display: block;
+	 position: relative;
+	 top: -10px;
+	 left: -10px;
+ }
+
+ .text{
+	 color: rgba(255, 255, 255, 1.0);
+	 font-weight: 400;
+	 line-height: 1.2em;
+     margin: 0px;
+	 padding: 0px;
+	 text-align: center;
+	 width: 270px;
+     font-size: 18px;
+ }
+
+ .border{
+	 border: 3px solid white;
+	 width: 250px;
+     margin: 50px auto 20px auto;
+ }
+
+ .contactdiv{
+     background: rgba(82, 75, 111,1.0);
+     text-align: center;
+	 padding: 50px 3px 50px 3px;
+	 position: relative;
+	 top: -10px;
+	 left: -10px;
+ }
+ }
